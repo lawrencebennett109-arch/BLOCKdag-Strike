@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BlockDAG Strike — USDT GameFi FPS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <header>
+      <h1>BlockDAG Strike</h1>
+      <div id="wallet">
+        <button id="connect">Connect Wallet</button>
+        <button id="wcConnect">WalletConnect</button>
+        <span id="account"></span>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="game-area">
+        <canvas id="gameCanvas" width="900" height="500"></canvas>
+        <div id="controls">
+          <button id="reload">Reload</button>
+          <button id="grenade">Throw Grenade (x<span id="grenadeCount">2</span>)</button>
+          <div id="touchArea">Touch to aim & shoot</div>
+        </div>
+        <div id="hud">
+          <div>Level: <span id="level">1</span></div>
+          <div>Kills: <span id="kills">0</span></div>
+          <div>Health: <span id="health">100</span></div>
+          <div>Magazine: <span id="mag">8</span></div>
+        </div>
+      </section>
+
+      <aside id="shop">
+        <h2>Shop</h2>
+        <p>First run free. Full run: <strong>2 USDT</strong>.</p>
+        <button id="buyRun">Buy Full Run (2 USDT)</button>
+        <button id="approveToken" style="display:none">Approve USDT</button>
+        <h3>Items (prices in USDT)</h3>
+        <ul id="items"></ul>
+        <h3>Your NFTs</h3>
+        <ul id="nfts"></ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Monthly prize pool: up to 300 USDT or 20% of monthly fees, whichever is less. Rewards paid in USDT.</p>
+    </footer>
+  </div>
+
+  <!-- Ethers.js -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+  <!-- WalletConnect & Web3Modal (CDN) -->
+  <script src="https://unpkg.com/@walletconnect/web3-provider@1.8.0/dist/umd/index.min.js"></script>
+  <script src="https://unpkg.com/web3modal@1.9.12/dist/index.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
