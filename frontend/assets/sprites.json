@@ -1,0 +1,12 @@
+{
+  "soldier_spritesheet.png": {
+    "frameWidth": 128,
+    "frameHeight": 256,
+    "frames": 6
+  },
+  "rifle_sprite.png": {
+    "frameWidth": 400,
+    "frameHeight": 120,
+    "frames": 1
+  }
+}

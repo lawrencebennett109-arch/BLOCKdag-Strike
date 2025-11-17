@@ -1,0 +1,1 @@
+BlockDAG Strike frontend with realistic-style placeholder assets. Replace placeholders with photorealistic renders using prompts in assets/*_prompt.txt. Use provided sprite metadata to assemble real spritesheets.

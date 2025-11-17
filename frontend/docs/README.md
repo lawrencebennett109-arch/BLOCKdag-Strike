@@ -1,0 +1,1 @@
+Use the prompt files in assets/ to generate photorealistic assets with Midjourney/SDXL/Stable Diffusion. Replace files in assets/ with the generated ones keeping filenames or update HTML/JS references.
