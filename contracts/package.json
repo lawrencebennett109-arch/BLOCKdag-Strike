@@ -1,0 +1,15 @@
+{
+  "name": "blockdag-strike-contracts",
+  "version": "1.0.0",
+  "devDependencies": {
+    "hardhat": "^2.14.0",
+    "ethers": "^5.7.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "@openzeppelin/contracts": "^4.9.0",
+    "chai": "^4.3.7"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  }
+}

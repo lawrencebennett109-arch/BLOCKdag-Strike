@@ -1,0 +1,1 @@
+Hardhat contracts configured for USDT (6 decimals). Use PLAY_FEE_USDT env var when deploying.

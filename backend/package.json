@@ -1,0 +1,16 @@
+{
+  "name": "blockdag-strike-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.3",
+    "lowdb": "^6.0.1",
+    "helmet": "^6.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

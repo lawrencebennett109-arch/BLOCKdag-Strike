@@ -1,0 +1,1 @@
+Backend prototype for signed run submissions and USDT reward distribution. Protect admin endpoint with strong auth in production.
