@@ -1,1 +1,1 @@
-Use the prompt files in assets/ to generate photorealistic assets with Midjourney/SDXL/Stable Diffusion. Replace files in assets/ with the generated ones keeping filenames or update HTML/JS references.
+Use PHOTO_PROMPTS_A2.txt in assets/ to generate photorealistic renders. Replace generated placeholders with model outputs and keep filenames or update references in HTML/JS accordingly.

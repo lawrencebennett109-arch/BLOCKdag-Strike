@@ -1,2 +1,2 @@
-// shop script placeholder
-console.log('shop script loaded');
+const shopItems = [{ id:'rifle1', name:'Rifle Lvl1', priceUSDT:0.5, img:'assets/item_rifle1.jpg' },{ id:'rifle2', name:'Rifle Lvl2', priceUSDT:1.0, img:'assets/item_rifle2.jpg' },{ id:'armor1', name:'Body Armour Lvl1', priceUSDT:0.75, img:'assets/item_armor1.jpg' },{ id:'grenade', name:'Grenade Pack', priceUSDT:0.5, img:'assets/item_grenade.jpg' }];
+const grid = document.getElementById('shopGrid'); shopItems.forEach(it=>{ const div = document.createElement('div'); div.className = 'item'; div.innerHTML = `<img src="${it.img}" alt="${it.name}"/><h4>${it.name}</h4><p>$${it.priceUSDT.toFixed(2)} USDT</p><button data-id="${it.id}">Buy</button>`; grid.appendChild(div); }); grid.addEventListener('click',(e)=>{ const btn = e.target.closest('button'); if(!btn) return; const id = btn.getAttribute('data-id'); alert('Purchase flow for ' + id + '. Integrate on-chain purchase via USDT approve+transferFrom.'); });

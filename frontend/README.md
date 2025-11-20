@@ -1,1 +1,1 @@
-BlockDAG Strike frontend with realistic-style placeholder assets. Replace placeholders with photorealistic renders using prompts in assets/*_prompt.txt. Use provided sprite metadata to assemble real spritesheets.
+BlockDAG Strike — Frontend (A2 Ultra-cinematic film realism). Replace assets/* with model-generated photorealistic images using PHOTO_PROMPTS_A2.txt for production-grade visuals.

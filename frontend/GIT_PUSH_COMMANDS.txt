@@ -1,0 +1,13 @@
+# Exact git commands (terminal)
+
+# 1) In the extracted frontend folder:
+git init
+git add .
+git commit -m "Frontend: A2 photorealistic assets (placeholders)"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git push -u origin main
+
+# 2) Set Secrets for GitHub Actions (in repo settings > Secrets):
+# - NETLIFY_AUTH_TOKEN  (Netlify personal access token)
+# - NETLIFY_SITE_ID     (Netlify site ID)

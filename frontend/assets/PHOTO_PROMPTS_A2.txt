@@ -1,0 +1,13 @@
+A2 - Ultra-cinematic film realism prompts (use in Midjourney/SDXL/Stable Diffusion):
+
+--- HERO ART ---
+Photorealistic cinematic composition: a modern soldier in full tactical multicam gear stands in a grand New York train station interior. Emphasize ultra-real textures, film-like color grading, volumetric light rays, shallow depth of field, subtle motion blur. Lighting: warm key, cold rim. Camera: 35mm, low-angle, 8k, ultra-detailed. Output: PNG 4096x2304.
+
+--- SOLDIER SPRITESHEET ---
+Photorealistic full-body soldier character in consistent tactical gear across multiple action poses (idle, aiming, firing, crouch, reload). Transparent background per frame. High resolution (minimum 2048px tall per frame). Ensure consistent lighting, camera angle and scale across frames.
+
+--- STATION BACKGROUND ---
+Photorealistic interior of New York central train station (e.g., Grand Central / Penn Station), cinematic volumetric light rays streaming through windows, benches, ticket counters, naturalistic color grading, high detail, 8k.
+
+--- WEAPON (RIFLE) ---
+Photorealistic modern assault rifle on neutral background, high-detail textures (matte metal, polymer, wear), 4k, multiple angles for sprite creation.
