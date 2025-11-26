@@ -1,20 +1,34 @@
 <!doctype html>
-<html lang="en">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>BlockDAG Strike — Landing</title><link rel="stylesheet" href="styles/landing.css"/></head>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>BlockDAG StrikeOut</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/ethers@6.8.0/dist/ethers.umd.min.js"></script>
+  <script type="module" defer src="src/main.js"></script>
+</head>
 <body>
-<header class="site-header">
-  <div class="logo"><img src="assets/logo.png" alt="logo" class="logo-img"/><h1>BlockDAG Strike</h1></div>
-  <nav class="nav"><a href="game.html" class="btn">Play Game</a><a href="shop.html" class="btn">Shop</a><a href="docs/README.md" class="btn">Docs</a></nav>
-</header>
-<main class="hero">
-  <div class="hero-inner"><h2>BlockDAG Strike</h2><p>Ultra-cinematic film realism — fight through NY Central Station, earn Military NFTs and USDT rewards.</p><div class="cta"><a href="game.html" class="primary">Play Now — First Run Free</a><a href="shop.html" class="secondary">Browse Shop</a></div></div>
-  <figure class="hero-art"><img src="assets/hero_highres.jpg" alt="hero" class="hero-img"/></figure>
-</main>
-<section class="features">
-  <article><h3>GameFi</h3><p>Play and earn on-chain NFTs and USDT rewards.</p></article>
-  <article><h3>Mobile-first</h3><p>Touch controls + WalletConnect (Trust Wallet).</p></article>
-  <article><h3>Secure</h3><p>On-chain treasury; backend-verified runs.</p></article>
-</section>
-<footer class="site-footer"><p>&copy; BlockDAG Strike — Prototype. Replace placeholder assets with licensed renders for production.</p></footer>
+  <div id="app">
+    <header class="topbar">
+      <div class="logo">BlockDAG StrikeOut</div>
+      <div id="wallet-area">
+        <button id="connectWallet">Connect Wallet</button>
+        <span id="walletAddress"></span>
+      </div>
+    </header>
+
+    <main id="game-container"></main>
+
+    <nav class="bottom-bar">
+      <button id="btnPlay">Play</button>
+      <button id="btnShop">Shop</button>
+      <button id="btnLeaderboard">Leaderboard</button>
+      <button id="btnInventory">Inventory</button>
+    </nav>
+
+    <div id="modal-root"></div>
+  </div>
 </body>
 </html>

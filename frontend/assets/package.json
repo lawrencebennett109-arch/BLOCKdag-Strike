@@ -1,0 +1,10 @@
+{
+  "name": "blockdag-strikeout-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve . -p 5000",
+    "build": "echo 'No build step; static site'"
+  },
+  "dependencies": {}
+}
